@@ -1,0 +1,2 @@
+com/android/example/colormyviews/BuildConfig.java
+ com.android.example.colormyviews.BuildConfig
