@@ -42,34 +42,33 @@
 33-->C:\Users\luisg\Documents\NCC\Spring 2022\CSCE 330 Mobile Apps Development\LuisG330\DessertClicker\app\src\main\AndroidManifest.xml:25:9-61
 34        android:supportsRtl="true"
 34-->C:\Users\luisg\Documents\NCC\Spring 2022\CSCE 330 Mobile Apps Development\LuisG330\DessertClicker\app\src\main\AndroidManifest.xml:26:9-35
-35        android:testOnly="true"
-36        android:theme="@style/AppTheme" >
-36-->C:\Users\luisg\Documents\NCC\Spring 2022\CSCE 330 Mobile Apps Development\LuisG330\DessertClicker\app\src\main\AndroidManifest.xml:27:9-40
-37        <activity android:name="com.example.android.dessertclicker.MainActivity" >
-37-->C:\Users\luisg\Documents\NCC\Spring 2022\CSCE 330 Mobile Apps Development\LuisG330\DessertClicker\app\src\main\AndroidManifest.xml:28:9-34:20
-37-->C:\Users\luisg\Documents\NCC\Spring 2022\CSCE 330 Mobile Apps Development\LuisG330\DessertClicker\app\src\main\AndroidManifest.xml:28:19-81
-38            <intent-filter>
-38-->C:\Users\luisg\Documents\NCC\Spring 2022\CSCE 330 Mobile Apps Development\LuisG330\DessertClicker\app\src\main\AndroidManifest.xml:29:13-33:29
-39                <action android:name="android.intent.action.MAIN" />
-39-->C:\Users\luisg\Documents\NCC\Spring 2022\CSCE 330 Mobile Apps Development\LuisG330\DessertClicker\app\src\main\AndroidManifest.xml:30:17-69
-39-->C:\Users\luisg\Documents\NCC\Spring 2022\CSCE 330 Mobile Apps Development\LuisG330\DessertClicker\app\src\main\AndroidManifest.xml:30:25-66
-40
-41                <category android:name="android.intent.category.LAUNCHER" />
-41-->C:\Users\luisg\Documents\NCC\Spring 2022\CSCE 330 Mobile Apps Development\LuisG330\DessertClicker\app\src\main\AndroidManifest.xml:32:17-77
-41-->C:\Users\luisg\Documents\NCC\Spring 2022\CSCE 330 Mobile Apps Development\LuisG330\DessertClicker\app\src\main\AndroidManifest.xml:32:27-74
-42            </intent-filter>
-43        </activity>
-44
-45        <provider
-45-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\luisg\.gradle\caches\transforms-3\7000a0af400728c7d1b62090c948886b\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
-46            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-46-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\luisg\.gradle\caches\transforms-3\7000a0af400728c7d1b62090c948886b\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
-47            android:authorities="com.example.android.dessertclicker.lifecycle-process"
-47-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\luisg\.gradle\caches\transforms-3\7000a0af400728c7d1b62090c948886b\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
-48            android:exported="false"
-48-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\luisg\.gradle\caches\transforms-3\7000a0af400728c7d1b62090c948886b\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
-49            android:multiprocess="true" />
-49-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\luisg\.gradle\caches\transforms-3\7000a0af400728c7d1b62090c948886b\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
-50    </application>
-51
-52</manifest>
+35        android:theme="@style/AppTheme" >
+35-->C:\Users\luisg\Documents\NCC\Spring 2022\CSCE 330 Mobile Apps Development\LuisG330\DessertClicker\app\src\main\AndroidManifest.xml:27:9-40
+36        <activity android:name="com.example.android.dessertclicker.MainActivity" >
+36-->C:\Users\luisg\Documents\NCC\Spring 2022\CSCE 330 Mobile Apps Development\LuisG330\DessertClicker\app\src\main\AndroidManifest.xml:28:9-34:20
+36-->C:\Users\luisg\Documents\NCC\Spring 2022\CSCE 330 Mobile Apps Development\LuisG330\DessertClicker\app\src\main\AndroidManifest.xml:28:19-81
+37            <intent-filter>
+37-->C:\Users\luisg\Documents\NCC\Spring 2022\CSCE 330 Mobile Apps Development\LuisG330\DessertClicker\app\src\main\AndroidManifest.xml:29:13-33:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->C:\Users\luisg\Documents\NCC\Spring 2022\CSCE 330 Mobile Apps Development\LuisG330\DessertClicker\app\src\main\AndroidManifest.xml:30:17-69
+38-->C:\Users\luisg\Documents\NCC\Spring 2022\CSCE 330 Mobile Apps Development\LuisG330\DessertClicker\app\src\main\AndroidManifest.xml:30:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->C:\Users\luisg\Documents\NCC\Spring 2022\CSCE 330 Mobile Apps Development\LuisG330\DessertClicker\app\src\main\AndroidManifest.xml:32:17-77
+40-->C:\Users\luisg\Documents\NCC\Spring 2022\CSCE 330 Mobile Apps Development\LuisG330\DessertClicker\app\src\main\AndroidManifest.xml:32:27-74
+41            </intent-filter>
+42        </activity>
+43
+44        <provider
+44-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\luisg\.gradle\caches\transforms-3\7000a0af400728c7d1b62090c948886b\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+45            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+45-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\luisg\.gradle\caches\transforms-3\7000a0af400728c7d1b62090c948886b\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+46            android:authorities="com.example.android.dessertclicker.lifecycle-process"
+46-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\luisg\.gradle\caches\transforms-3\7000a0af400728c7d1b62090c948886b\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+47            android:exported="false"
+47-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\luisg\.gradle\caches\transforms-3\7000a0af400728c7d1b62090c948886b\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+48            android:multiprocess="true" />
+48-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\luisg\.gradle\caches\transforms-3\7000a0af400728c7d1b62090c948886b\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+49    </application>
+50
+51</manifest>
