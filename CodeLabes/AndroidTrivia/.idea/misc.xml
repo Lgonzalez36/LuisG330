@@ -4,6 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/luisg/Documents/Spring 2022/CSCE 330/CodeLabes/AndroidTrivia/app/src/main/res/layout/activity_main.xml" value="0.11388888888888889" />
+        <entry key="..\:/Users/luisg/Documents/Spring 2022/CSCE 330/CodeLabes/AndroidTrivia/app/src/main/res/layout/fragment_game.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/luisg/Documents/Spring 2022/CSCE 330/CodeLabes/AndroidTrivia/app/src/main/res/layout/fragment_game_over.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/luisg/Documents/Spring 2022/CSCE 330/CodeLabes/AndroidTrivia/app/src/main/res/layout/fragment_game_won.xml" value="0.20520833333333333" />
         <entry key="..\:/Users/luisg/Documents/Spring 2022/CSCE 330/CodeLabes/AndroidTrivia/app/src/main/res/layout/fragment_rules.xml" value="0.20520833333333333" />
         <entry key="..\:/Users/luisg/Documents/Spring 2022/CSCE 330/CodeLabes/AndroidTrivia/app/src/main/res/layout/placeholder_layout.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/luisg/Documents/Spring 2022/CSCE 330/CodeLabes/AndroidTrivia/app/src/main/res/menu/navdrawer_menu.xml" value="0.20520833333333333" />
