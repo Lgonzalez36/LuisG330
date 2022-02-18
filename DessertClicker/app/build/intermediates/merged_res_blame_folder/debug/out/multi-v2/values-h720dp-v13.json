@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\luisg\\Documents\\NCC\\Spring 2022\\CSCE 330 Mobile Apps Development\\LuisG330\\DessertClicker\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h720dp-v13\\values-h720dp-v13.xml",
+            "outputFile": "C:\\Users\\luisg\\Documents\\Spring 2022\\CSCE 330\\DessertClicker\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h720dp-v13\\values-h720dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\luisg\\.gradle\\caches\\transforms-3\\5b99f50e10f1e02e7127fae489430061\\transformed\\appcompat-1.2.0\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
+                    "source": "C:\\Users\\luisg\\.gradle\\caches\\transforms-3\\7c35e9ced6058ee9ee419dce8130dd8e\\transformed\\appcompat-1.4.1\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
