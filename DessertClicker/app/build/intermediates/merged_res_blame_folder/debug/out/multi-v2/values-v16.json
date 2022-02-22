@@ -4,7 +4,17 @@
             "outputFile": "C:\\Users\\luisg\\Documents\\NCC\\Spring 2022\\CSCE 330 Mobile Apps Development\\LuisG330\\DessertClicker\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\luisg\\.gradle\\caches\\transforms-3\\5b99f50e10f1e02e7127fae489430061\\transformed\\appcompat-1.2.0\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\luisg\\.gradle\\caches\\transforms-3\\fb3270031bd107031c21c5dc13d9e5ef\\transformed\\core-1.7.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\luisg\\.gradle\\caches\\transforms-3\\7c35e9ced6058ee9ee419dce8130dd8e\\transformed\\appcompat-1.4.1\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -20,16 +30,6 @@
                         "endLines": "6",
                         "endColumns": "12",
                         "endOffsets": "289"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\luisg\\.gradle\\caches\\transforms-3\\48a43abd73611afcf59887dec312de94\\transformed\\core-1.3.0\\res\\values-v16\\values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
                     }
                 }
             ]
