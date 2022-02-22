@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\luisg\\Documents\\NCC\\Spring 2022\\CSCE 330 Mobile Apps Development\\LuisG330\\DessertClicker\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pt-rBR\\values-pt-rBR.xml",
+            "outputFile": "C:\\Users\\luisg\\Documents\\Spring 2022\\CSCE 330\\DessertClicker\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pt-rBR\\values-pt-rBR.xml",
             "map": [
                 {
                     "source": "C:\\Users\\luisg\\.gradle\\caches\\transforms-3\\fb3270031bd107031c21c5dc13d9e5ef\\transformed\\core-1.7.0\\res\\values-pt-rBR\\values-pt-rBR.xml",

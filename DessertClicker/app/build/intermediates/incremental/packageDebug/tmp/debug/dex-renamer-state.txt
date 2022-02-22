@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 #Thu Feb 10 14:46:22 CST 2022
 base.0=C\:\\Users\\luisg\\Documents\\NCC\\Spring 2022\\CSCE 330 Mobile Apps Development\\LuisG330\\DessertClicker\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+=======
+#Thu Feb 17 20:40:04 CST 2022
+base.0=C\:\\Users\\luisg\\Documents\\Spring 2022\\CSCE 330\\DessertClicker\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+>>>>>>> 1c840176f3b1167c80bbc1b58aac88e5887e6a6a
 renamed.0=classes.dex
 path.0=classes.dex

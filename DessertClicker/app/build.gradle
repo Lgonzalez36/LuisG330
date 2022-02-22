@@ -16,13 +16,22 @@
 
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
 
 android {
+<<<<<<< HEAD
     compileSdkVersion 31
     defaultConfig {
         applicationId "com.example.android.dessertclicker"
         minSdkVersion 19
         targetSdkVersion 31
+=======
+    compileSdkVersion 32
+    defaultConfig {
+        applicationId "com.example.android.dessertclicker"
+        minSdkVersion 19
+        targetSdkVersion 32
+>>>>>>> 1c840176f3b1167c80bbc1b58aac88e5887e6a6a
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
