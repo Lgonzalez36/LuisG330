@@ -25,21 +25,46 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.example.android.guesstheword.R
 import com.example.android.guesstheword.databinding.TitleFragmentBinding
+import com.google.android.material.slider.Slider
+import kotlinx.android.synthetic.main.title_fragment.*
 
 /**
  * Fragment for the starting or title screen of the app
  */
 class TitleFragment : Fragment() {
-
+    private lateinit var binding: TitleFragmentBinding
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View {
-        // Inflate the layout for this fragment
-        val binding: TitleFragmentBinding = DataBindingUtil.inflate(
-                inflater, R.layout.title_fragment, container, false)
+        // Inflate view and obtain an instance of the binding class
+        binding = DataBindingUtil.inflate(
+            inflater,
+            R.layout.title_fragment,
+            container,
+            false
+        )
+        setupSlider()
+
+        return binding.root
+    }
+
+    private fun setupSlider() {
+        binding!!.slider.addOnSliderTouchListener()
+        binding!!.slider.addOnSliderTouchListener(object : Slider.OnSliderTouchListener {
+            override fun onStartTrackingTouch(slider: Slider) {
+                binding!!.setTimeText.text = slider.value.toString()
+            }
+
+            override fun onStopTrackingTouch(slider: Slider) {
+                binding!!.setTimeText.text = slider.value.toString()
+            }
+        })
+
+        slider.addOnChangeListener { slider, value, fromUser ->
+            binding!!.setTimeText.text = slider.value.toString()
+        }
 
         binding.playGameButton.setOnClickListener {
             findNavController().navigate(TitleFragmentDirections.actionTitleToGame())
         }
-        return binding.root
     }
 }
