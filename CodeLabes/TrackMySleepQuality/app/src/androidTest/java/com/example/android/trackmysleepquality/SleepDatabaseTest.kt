@@ -16,19 +16,23 @@
 
 package com.example.android.trackmysleepquality
 
+import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import androidx.room.Room
 import androidx.test.ext.junit.runners.AndroidJUnit4
+import androidx.test.filters.SmallTest
 import androidx.test.platform.app.InstrumentationRegistry
 import com.example.android.trackmysleepquality.database.SleepDatabase
 import com.example.android.trackmysleepquality.database.SleepDatabaseDao
 import com.example.android.trackmysleepquality.database.SleepNight
-import org.junit.Assert.assertEquals
+import kotlinx.coroutines.ExperimentalCoroutinesApi
+import org.hamcrest.MatcherAssert.assertThat
+import org.hamcrest.Matchers.`is`
 import org.junit.After
 import org.junit.Before
+import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
 import java.io.IOException
-
 
 /**
  * This is not meant to be a full set of tests. For simplicity, most of your samples do not
@@ -36,8 +40,12 @@ import java.io.IOException
  * adding the UI.
  */
 
+@ExperimentalCoroutinesApi
 @RunWith(AndroidJUnit4::class)
+@SmallTest
 class SleepDatabaseTest {
+    @get:Rule
+    var instantExecutorRule = InstantTaskExecutorRule()
 
     private lateinit var sleepDao: SleepDatabaseDao
     private lateinit var db: SleepDatabase
@@ -60,13 +68,100 @@ class SleepDatabaseTest {
         db.close()
     }
 
+
+    @Test
+    @Throws(Exception::class)
+    fun getByNightId() {
+        val night = SleepNight(6000L, 100000L, 5000000, -1 )
+        sleepDao.insert(night)
+        val sleepNight = sleepDao.get(6000L)
+        assertThat(sleepNight?.nightId, `is`(6000L))
+    }
+
+    @Test
+    @Throws(Exception::class)
+    fun getAllNights() {
+        val night1 = SleepNight(6000L, 100000L, 5000000, 4 )
+        val night2 = SleepNight(7000L, 10000L, 500000, -1 )
+        val night3 = SleepNight(2000L, 10000000L, 50000000, 3 )
+
+        sleepDao.insert(night1)
+        sleepDao.insert(night2)
+        sleepDao.insert(night3)
+
+        sleepDao.update(night3)
+        val nightList = sleepDao.getAllNights()
+
+        assertThat(nightList?.getOrAwaitValue().size, `is`(3))
+    }
+
+    @Test
+    @Throws(Exception::class)
+    fun getTonight() {
+        val night1 = SleepNight(6000L, 100000L, 5000000, 4 )
+        val night2 = SleepNight(7000L, 10000L, 500000, -1 )
+        val night3 = SleepNight(2000L, 10000000L, 50000000, 3 )
+        sleepDao.insert(night1)
+        sleepDao.insert(night2)
+        sleepDao.insert(night3)
+
+        val tonight = sleepDao.getTonight()
+        assertThat(tonight?.nightId, `is`(7000L) )
+    }
+
+    @Test
+    @Throws(Exception::class)
+    fun updateNight() {
+        val night1 = SleepNight(6000L, 100000L, 5000000, 4 )
+        val night2 = SleepNight(7000L, 10000L, 500000, -1 )
+        val night3 = SleepNight(2000L, 10000000L, 50000000, 3 )
+        sleepDao.insert(night1)
+        sleepDao.insert(night2)
+        sleepDao.insert(night3)
+
+        night3.sleepQuality = 1
+        sleepDao.update(night3)
+        val updatedNight3 = sleepDao.get(2000L)
+
+        assertThat(updatedNight3?.sleepQuality, `is`(1))
+    }
+
+    @Test
+    @Throws(Exception::class)
+    fun clear() {
+        val night1 = SleepNight(6000L, 100000L, 5000000, 4 )
+        val night2 = SleepNight(7000L, 10000L, 500000, -1 )
+        val night3 = SleepNight(2000L, 10000000L, 50000000, 3 )
+
+        sleepDao.insert(night1)
+        sleepDao.insert(night2)
+        sleepDao.insert(night3)
+
+        sleepDao.update(night3)
+        val nightList = sleepDao.getAllNights()
+
+        sleepDao.clear().apply { nightList }
+
+        assertThat(nightList.getOrAwaitValue().size, `is`(0))
+    }
+
     @Test
     @Throws(Exception::class)
     fun insertAndGetNight() {
         val night = SleepNight(6000L, 100000L, 5000000, -1 )
         sleepDao.insert(night)
         val tonight = sleepDao.getTonight()
-        assertEquals(tonight?.sleepQuality, -1)
+        assertThat(tonight?.sleepQuality,`is`(-1))
     }
-
 }
+
+//                      need                        done
+
+
+//get                   getByNightId                getByNightId
+//getAllNights          getAllNights*               getAllNights              need to do codeLab 5.3
+//update                updateNight                 updateNight
+//getTonight            getTonight                  getTonight
+//clear                 clear
+//insert                insertAndGetNight           insertAndGetNight
+
