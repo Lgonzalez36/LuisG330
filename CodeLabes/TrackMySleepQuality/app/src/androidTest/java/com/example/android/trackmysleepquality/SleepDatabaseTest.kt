@@ -25,6 +25,7 @@ import com.example.android.trackmysleepquality.database.SleepDatabase
 import com.example.android.trackmysleepquality.database.SleepDatabaseDao
 import com.example.android.trackmysleepquality.database.SleepNight
 import kotlinx.coroutines.ExperimentalCoroutinesApi
+import kotlinx.coroutines.runBlocking
 import org.hamcrest.MatcherAssert.assertThat
 import org.hamcrest.Matchers.`is`
 import org.junit.After
@@ -71,7 +72,7 @@ class SleepDatabaseTest {
 
     @Test
     @Throws(Exception::class)
-    fun getByNightId() {
+    fun getByNightId() = runBlocking {
         val night = SleepNight(6000L, 100000L, 5000000, -1 )
         sleepDao.insert(night)
         val sleepNight = sleepDao.get(6000L)
@@ -80,7 +81,7 @@ class SleepDatabaseTest {
 
     @Test
     @Throws(Exception::class)
-    fun getAllNights() {
+    fun getAllNights() = runBlocking {
         val night1 = SleepNight(6000L, 100000L, 5000000, 4 )
         val night2 = SleepNight(7000L, 10000L, 500000, -1 )
         val night3 = SleepNight(2000L, 10000000L, 50000000, 3 )
@@ -97,7 +98,7 @@ class SleepDatabaseTest {
 
     @Test
     @Throws(Exception::class)
-    fun getTonight() {
+    fun getTonight() = runBlocking {
         val night1 = SleepNight(6000L, 100000L, 5000000, 4 )
         val night2 = SleepNight(7000L, 10000L, 500000, -1 )
         val night3 = SleepNight(2000L, 10000000L, 50000000, 3 )
@@ -111,7 +112,7 @@ class SleepDatabaseTest {
 
     @Test
     @Throws(Exception::class)
-    fun updateNight() {
+    fun updateNight() = runBlocking {
         val night1 = SleepNight(6000L, 100000L, 5000000, 4 )
         val night2 = SleepNight(7000L, 10000L, 500000, -1 )
         val night3 = SleepNight(2000L, 10000000L, 50000000, 3 )
@@ -128,7 +129,7 @@ class SleepDatabaseTest {
 
     @Test
     @Throws(Exception::class)
-    fun clear() {
+    fun clear() = runBlocking {
         val night1 = SleepNight(6000L, 100000L, 5000000, 4 )
         val night2 = SleepNight(7000L, 10000L, 500000, -1 )
         val night3 = SleepNight(2000L, 10000000L, 50000000, 3 )
@@ -147,12 +148,25 @@ class SleepDatabaseTest {
 
     @Test
     @Throws(Exception::class)
-    fun insertAndGetNight() {
+    fun insertAndGetNight() = runBlocking {
+        // Given
         val night = SleepNight(6000L, 100000L, 5000000, -1 )
+
+        // When
         sleepDao.insert(night)
+
+        // Then
         val tonight = sleepDao.getTonight()
-        assertThat(tonight?.sleepQuality,`is`(-1))
+        assertThat(tonight?.sleepQuality, `is`(-1))
     }
+//    @Test
+//    @Throws(Exception::class)
+//    fun insertAndGetNight() {
+//        val night = SleepNight(6000L, 100000L, 5000000, -1 )
+//        sleepDao.insert(night)
+//        val tonight = sleepDao.getTonight()
+//        assertThat(tonight?.sleepQuality,`is`(-1))
+//    }
 }
 
 //                      need                        done
