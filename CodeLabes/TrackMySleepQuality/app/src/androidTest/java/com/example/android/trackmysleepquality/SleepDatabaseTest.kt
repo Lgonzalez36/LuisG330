@@ -57,9 +57,9 @@ class SleepDatabaseTest {
         // Using an in-memory database because the information stored here disappears when the
         // process is killed.
         db = Room.inMemoryDatabaseBuilder(context, SleepDatabase::class.java)
-                // Allowing main thread queries, just for testing.
-                .allowMainThreadQueries()
-                .build()
+            // Allowing main thread queries, just for testing.
+            .allowMainThreadQueries()
+            .build()
         sleepDao = db.sleepDatabaseDao
     }
 
@@ -93,7 +93,7 @@ class SleepDatabaseTest {
         sleepDao.update(night3)
         val nightList = sleepDao.getAllNights()
 
-        assertThat(nightList?.getOrAwaitValue().size, `is`(3))
+        assertThat(nightList.getOrAwaitValue().size, `is`(3))
     }
 
     @Test
