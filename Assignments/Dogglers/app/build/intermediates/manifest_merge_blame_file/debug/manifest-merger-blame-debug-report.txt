@@ -1,0 +1,186 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3  ~ Copyright (C) 2021 The Android Open Source Project.
+4  ~
+5  ~ Licensed under the Apache License, Version 2.0 (the "License");
+6  ~ you may not use this file except in compliance with the License.
+7  ~ You may obtain a copy of the License at
+8  ~
+9  ~     http://www.apache.org/licenses/LICENSE-2.0
+10  ~
+11  ~ Unless required by applicable law or agreed to in writing, software
+12  ~ distributed under the License is distributed on an "AS IS" BASIS,
+13  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14  ~ See the License for the specific language governing permissions and
+15  ~ limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="com.example.dogglers"
+19    android:versionCode="1"
+20    android:versionName="1.0" >
+21
+22    <uses-sdk
+23        android:minSdkVersion="23"
+23-->C:\Users\luisg\Documents\Spring 2022\CSCE 330\LuisG330\Assignments\Dogglers\app\src\main\AndroidManifest.xml
+24        android:targetSdkVersion="32" />
+24-->C:\Users\luisg\Documents\Spring 2022\CSCE 330\LuisG330\Assignments\Dogglers\app\src\main\AndroidManifest.xml
+25
+26    <uses-permission android:name="android.permission.REORDER_TASKS" />
+26-->[androidx.fragment:fragment-testing:1.4.1] C:\Users\luisg\.gradle\caches\transforms-3\ae6900d6aa9d5a2235d5f282cdce9b6e\transformed\jetified-fragment-testing-1.4.1\AndroidManifest.xml:25:5-72
+26-->[androidx.fragment:fragment-testing:1.4.1] C:\Users\luisg\.gradle\caches\transforms-3\ae6900d6aa9d5a2235d5f282cdce9b6e\transformed\jetified-fragment-testing-1.4.1\AndroidManifest.xml:25:22-69
+27
+28    <application
+28-->C:\Users\luisg\Documents\Spring 2022\CSCE 330\LuisG330\Assignments\Dogglers\app\src\main\AndroidManifest.xml:20:5-49:19
+29        android:allowBackup="true"
+29-->C:\Users\luisg\Documents\Spring 2022\CSCE 330\LuisG330\Assignments\Dogglers\app\src\main\AndroidManifest.xml:21:9-35
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.7.0] C:\Users\luisg\.gradle\caches\transforms-3\fb3270031bd107031c21c5dc13d9e5ef\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+31        android:debuggable="true"
+32        android:extractNativeLibs="false"
+33        android:icon="@mipmap/ic_launcher"
+33-->C:\Users\luisg\Documents\Spring 2022\CSCE 330\LuisG330\Assignments\Dogglers\app\src\main\AndroidManifest.xml:22:9-43
+34        android:label="@string/app_name"
+34-->C:\Users\luisg\Documents\Spring 2022\CSCE 330\LuisG330\Assignments\Dogglers\app\src\main\AndroidManifest.xml:23:9-41
+35        android:roundIcon="@mipmap/ic_launcher_round"
+35-->C:\Users\luisg\Documents\Spring 2022\CSCE 330\LuisG330\Assignments\Dogglers\app\src\main\AndroidManifest.xml:24:9-54
+36        android:supportsRtl="true"
+36-->C:\Users\luisg\Documents\Spring 2022\CSCE 330\LuisG330\Assignments\Dogglers\app\src\main\AndroidManifest.xml:25:9-35
+37        android:testOnly="true"
+38        android:theme="@style/Theme.Dogglers" >
+38-->C:\Users\luisg\Documents\Spring 2022\CSCE 330\LuisG330\Assignments\Dogglers\app\src\main\AndroidManifest.xml:26:9-46
+39        <activity android:name="com.example.dogglers.VerticalListActivity" >
+39-->C:\Users\luisg\Documents\Spring 2022\CSCE 330\LuisG330\Assignments\Dogglers\app\src\main\AndroidManifest.xml:27:9-31:20
+39-->C:\Users\luisg\Documents\Spring 2022\CSCE 330\LuisG330\Assignments\Dogglers\app\src\main\AndroidManifest.xml:27:19-55
+40            <meta-data
+40-->C:\Users\luisg\Documents\Spring 2022\CSCE 330\LuisG330\Assignments\Dogglers\app\src\main\AndroidManifest.xml:28:13-30:49
+41                android:name="android.support.PARENT_ACTIVITY"
+41-->C:\Users\luisg\Documents\Spring 2022\CSCE 330\LuisG330\Assignments\Dogglers\app\src\main\AndroidManifest.xml:29:17-63
+42                android:value=".MainActivity" />
+42-->C:\Users\luisg\Documents\Spring 2022\CSCE 330\LuisG330\Assignments\Dogglers\app\src\main\AndroidManifest.xml:30:17-46
+43        </activity>
+44        <activity android:name="com.example.dogglers.HorizontalListActivity" >
+44-->C:\Users\luisg\Documents\Spring 2022\CSCE 330\LuisG330\Assignments\Dogglers\app\src\main\AndroidManifest.xml:32:9-36:20
+44-->C:\Users\luisg\Documents\Spring 2022\CSCE 330\LuisG330\Assignments\Dogglers\app\src\main\AndroidManifest.xml:32:19-57
+45            <meta-data
+45-->C:\Users\luisg\Documents\Spring 2022\CSCE 330\LuisG330\Assignments\Dogglers\app\src\main\AndroidManifest.xml:28:13-30:49
+46                android:name="android.support.PARENT_ACTIVITY"
+46-->C:\Users\luisg\Documents\Spring 2022\CSCE 330\LuisG330\Assignments\Dogglers\app\src\main\AndroidManifest.xml:29:17-63
+47                android:value=".MainActivity" />
+47-->C:\Users\luisg\Documents\Spring 2022\CSCE 330\LuisG330\Assignments\Dogglers\app\src\main\AndroidManifest.xml:30:17-46
+48        </activity>
+49        <activity android:name="com.example.dogglers.GridListActivity" >
+49-->C:\Users\luisg\Documents\Spring 2022\CSCE 330\LuisG330\Assignments\Dogglers\app\src\main\AndroidManifest.xml:37:9-41:20
+49-->C:\Users\luisg\Documents\Spring 2022\CSCE 330\LuisG330\Assignments\Dogglers\app\src\main\AndroidManifest.xml:37:19-51
+50            <meta-data
+50-->C:\Users\luisg\Documents\Spring 2022\CSCE 330\LuisG330\Assignments\Dogglers\app\src\main\AndroidManifest.xml:28:13-30:49
+51                android:name="android.support.PARENT_ACTIVITY"
+51-->C:\Users\luisg\Documents\Spring 2022\CSCE 330\LuisG330\Assignments\Dogglers\app\src\main\AndroidManifest.xml:29:17-63
+52                android:value=".MainActivity" />
+52-->C:\Users\luisg\Documents\Spring 2022\CSCE 330\LuisG330\Assignments\Dogglers\app\src\main\AndroidManifest.xml:30:17-46
+53        </activity>
+54        <activity
+54-->C:\Users\luisg\Documents\Spring 2022\CSCE 330\LuisG330\Assignments\Dogglers\app\src\main\AndroidManifest.xml:42:9-48:20
+55            android:name="com.example.dogglers.MainActivity"
+55-->C:\Users\luisg\Documents\Spring 2022\CSCE 330\LuisG330\Assignments\Dogglers\app\src\main\AndroidManifest.xml:42:19-47
+56            android:exported="true" >
+56-->C:\Users\luisg\Documents\Spring 2022\CSCE 330\LuisG330\Assignments\Dogglers\app\src\main\AndroidManifest.xml:42:48-71
+57            <intent-filter>
+57-->C:\Users\luisg\Documents\Spring 2022\CSCE 330\LuisG330\Assignments\Dogglers\app\src\main\AndroidManifest.xml:43:13-47:29
+58                <action android:name="android.intent.action.MAIN" />
+58-->C:\Users\luisg\Documents\Spring 2022\CSCE 330\LuisG330\Assignments\Dogglers\app\src\main\AndroidManifest.xml:44:17-69
+58-->C:\Users\luisg\Documents\Spring 2022\CSCE 330\LuisG330\Assignments\Dogglers\app\src\main\AndroidManifest.xml:44:25-66
+59
+60                <category android:name="android.intent.category.LAUNCHER" />
+60-->C:\Users\luisg\Documents\Spring 2022\CSCE 330\LuisG330\Assignments\Dogglers\app\src\main\AndroidManifest.xml:46:17-77
+60-->C:\Users\luisg\Documents\Spring 2022\CSCE 330\LuisG330\Assignments\Dogglers\app\src\main\AndroidManifest.xml:46:27-74
+61            </intent-filter>
+62        </activity>
+63        <activity
+63-->[androidx.fragment:fragment-testing:1.4.1] C:\Users\luisg\.gradle\caches\transforms-3\ae6900d6aa9d5a2235d5f282cdce9b6e\transformed\jetified-fragment-testing-1.4.1\AndroidManifest.xml:28:9-37:20
+64            android:name="androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity"
+64-->[androidx.fragment:fragment-testing:1.4.1] C:\Users\luisg\.gradle\caches\transforms-3\ae6900d6aa9d5a2235d5f282cdce9b6e\transformed\jetified-fragment-testing-1.4.1\AndroidManifest.xml:29:13-96
+65            android:exported="true"
+65-->[androidx.fragment:fragment-testing:1.4.1] C:\Users\luisg\.gradle\caches\transforms-3\ae6900d6aa9d5a2235d5f282cdce9b6e\transformed\jetified-fragment-testing-1.4.1\AndroidManifest.xml:30:13-36
+66            android:multiprocess="true"
+66-->[androidx.fragment:fragment-testing:1.4.1] C:\Users\luisg\.gradle\caches\transforms-3\ae6900d6aa9d5a2235d5f282cdce9b6e\transformed\jetified-fragment-testing-1.4.1\AndroidManifest.xml:31:13-40
+67            android:taskAffinity=""
+67-->[androidx.fragment:fragment-testing:1.4.1] C:\Users\luisg\.gradle\caches\transforms-3\ae6900d6aa9d5a2235d5f282cdce9b6e\transformed\jetified-fragment-testing-1.4.1\AndroidManifest.xml:32:13-36
+68            android:theme="@style/FragmentScenarioEmptyFragmentActivityTheme" >
+68-->[androidx.fragment:fragment-testing:1.4.1] C:\Users\luisg\.gradle\caches\transforms-3\ae6900d6aa9d5a2235d5f282cdce9b6e\transformed\jetified-fragment-testing-1.4.1\AndroidManifest.xml:33:13-78
+69            <intent-filter>
+69-->[androidx.fragment:fragment-testing:1.4.1] C:\Users\luisg\.gradle\caches\transforms-3\ae6900d6aa9d5a2235d5f282cdce9b6e\transformed\jetified-fragment-testing-1.4.1\AndroidManifest.xml:34:13-36:29
+70                <action android:name="android.intent.action.MAIN" />
+70-->C:\Users\luisg\Documents\Spring 2022\CSCE 330\LuisG330\Assignments\Dogglers\app\src\main\AndroidManifest.xml:44:17-69
+70-->C:\Users\luisg\Documents\Spring 2022\CSCE 330\LuisG330\Assignments\Dogglers\app\src\main\AndroidManifest.xml:44:25-66
+71            </intent-filter>
+72        </activity>
+73        <activity
+73-->[androidx.test:core:1.4.0] C:\Users\luisg\.gradle\caches\transforms-3\906f7ca7c30dfc23a3380de6a17b6a3c\transformed\jetified-core-1.4.0\AndroidManifest.xml:27:9-34:20
+74            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+74-->[androidx.test:core:1.4.0] C:\Users\luisg\.gradle\caches\transforms-3\906f7ca7c30dfc23a3380de6a17b6a3c\transformed\jetified-core-1.4.0\AndroidManifest.xml:28:13-99
+75            android:exported="true"
+75-->[androidx.test:core:1.4.0] C:\Users\luisg\.gradle\caches\transforms-3\906f7ca7c30dfc23a3380de6a17b6a3c\transformed\jetified-core-1.4.0\AndroidManifest.xml:29:13-36
+76            android:theme="@android:style/Theme" >
+76-->[androidx.test:core:1.4.0] C:\Users\luisg\.gradle\caches\transforms-3\906f7ca7c30dfc23a3380de6a17b6a3c\transformed\jetified-core-1.4.0\AndroidManifest.xml:30:13-49
+77            <intent-filter>
+77-->[androidx.fragment:fragment-testing:1.4.1] C:\Users\luisg\.gradle\caches\transforms-3\ae6900d6aa9d5a2235d5f282cdce9b6e\transformed\jetified-fragment-testing-1.4.1\AndroidManifest.xml:34:13-36:29
+78                <action android:name="android.intent.action.MAIN" />
+78-->C:\Users\luisg\Documents\Spring 2022\CSCE 330\LuisG330\Assignments\Dogglers\app\src\main\AndroidManifest.xml:44:17-69
+78-->C:\Users\luisg\Documents\Spring 2022\CSCE 330\LuisG330\Assignments\Dogglers\app\src\main\AndroidManifest.xml:44:25-66
+79            </intent-filter>
+80        </activity>
+81        <activity
+81-->[androidx.test:core:1.4.0] C:\Users\luisg\.gradle\caches\transforms-3\906f7ca7c30dfc23a3380de6a17b6a3c\transformed\jetified-core-1.4.0\AndroidManifest.xml:35:9-42:20
+82            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+82-->[androidx.test:core:1.4.0] C:\Users\luisg\.gradle\caches\transforms-3\906f7ca7c30dfc23a3380de6a17b6a3c\transformed\jetified-core-1.4.0\AndroidManifest.xml:36:13-95
+83            android:exported="true"
+83-->[androidx.test:core:1.4.0] C:\Users\luisg\.gradle\caches\transforms-3\906f7ca7c30dfc23a3380de6a17b6a3c\transformed\jetified-core-1.4.0\AndroidManifest.xml:37:13-36
+84            android:theme="@android:style/Theme" >
+84-->[androidx.test:core:1.4.0] C:\Users\luisg\.gradle\caches\transforms-3\906f7ca7c30dfc23a3380de6a17b6a3c\transformed\jetified-core-1.4.0\AndroidManifest.xml:38:13-49
+85            <intent-filter>
+85-->[androidx.fragment:fragment-testing:1.4.1] C:\Users\luisg\.gradle\caches\transforms-3\ae6900d6aa9d5a2235d5f282cdce9b6e\transformed\jetified-fragment-testing-1.4.1\AndroidManifest.xml:34:13-36:29
+86                <action android:name="android.intent.action.MAIN" />
+86-->C:\Users\luisg\Documents\Spring 2022\CSCE 330\LuisG330\Assignments\Dogglers\app\src\main\AndroidManifest.xml:44:17-69
+86-->C:\Users\luisg\Documents\Spring 2022\CSCE 330\LuisG330\Assignments\Dogglers\app\src\main\AndroidManifest.xml:44:25-66
+87            </intent-filter>
+88        </activity>
+89        <activity
+89-->[androidx.test:core:1.4.0] C:\Users\luisg\.gradle\caches\transforms-3\906f7ca7c30dfc23a3380de6a17b6a3c\transformed\jetified-core-1.4.0\AndroidManifest.xml:43:9-50:20
+90            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+90-->[androidx.test:core:1.4.0] C:\Users\luisg\.gradle\caches\transforms-3\906f7ca7c30dfc23a3380de6a17b6a3c\transformed\jetified-core-1.4.0\AndroidManifest.xml:44:13-103
+91            android:exported="true"
+91-->[androidx.test:core:1.4.0] C:\Users\luisg\.gradle\caches\transforms-3\906f7ca7c30dfc23a3380de6a17b6a3c\transformed\jetified-core-1.4.0\AndroidManifest.xml:45:13-36
+92            android:theme="@android:style/Theme.Dialog" >
+92-->[androidx.test:core:1.4.0] C:\Users\luisg\.gradle\caches\transforms-3\906f7ca7c30dfc23a3380de6a17b6a3c\transformed\jetified-core-1.4.0\AndroidManifest.xml:46:13-56
+93            <intent-filter>
+93-->[androidx.fragment:fragment-testing:1.4.1] C:\Users\luisg\.gradle\caches\transforms-3\ae6900d6aa9d5a2235d5f282cdce9b6e\transformed\jetified-fragment-testing-1.4.1\AndroidManifest.xml:34:13-36:29
+94                <action android:name="android.intent.action.MAIN" />
+94-->C:\Users\luisg\Documents\Spring 2022\CSCE 330\LuisG330\Assignments\Dogglers\app\src\main\AndroidManifest.xml:44:17-69
+94-->C:\Users\luisg\Documents\Spring 2022\CSCE 330\LuisG330\Assignments\Dogglers\app\src\main\AndroidManifest.xml:44:25-66
+95            </intent-filter>
+96        </activity>
+97
+98        <provider
+98-->[androidx.emoji2:emoji2:1.0.0] C:\Users\luisg\.gradle\caches\transforms-3\86bbdb4c704f0c6ef69f85fd6941d5d8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+99            android:name="androidx.startup.InitializationProvider"
+99-->[androidx.emoji2:emoji2:1.0.0] C:\Users\luisg\.gradle\caches\transforms-3\86bbdb4c704f0c6ef69f85fd6941d5d8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+100            android:authorities="com.example.dogglers.androidx-startup"
+100-->[androidx.emoji2:emoji2:1.0.0] C:\Users\luisg\.gradle\caches\transforms-3\86bbdb4c704f0c6ef69f85fd6941d5d8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+101            android:exported="false" >
+101-->[androidx.emoji2:emoji2:1.0.0] C:\Users\luisg\.gradle\caches\transforms-3\86bbdb4c704f0c6ef69f85fd6941d5d8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+102            <meta-data
+102-->[androidx.emoji2:emoji2:1.0.0] C:\Users\luisg\.gradle\caches\transforms-3\86bbdb4c704f0c6ef69f85fd6941d5d8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+103                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+103-->[androidx.emoji2:emoji2:1.0.0] C:\Users\luisg\.gradle\caches\transforms-3\86bbdb4c704f0c6ef69f85fd6941d5d8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+104                android:value="androidx.startup" />
+104-->[androidx.emoji2:emoji2:1.0.0] C:\Users\luisg\.gradle\caches\transforms-3\86bbdb4c704f0c6ef69f85fd6941d5d8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+105            <meta-data
+105-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\luisg\.gradle\caches\transforms-3\60fb03f7868607ff1baa13fa3ab998ab\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+106                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+106-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\luisg\.gradle\caches\transforms-3\60fb03f7868607ff1baa13fa3ab998ab\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+107                android:value="androidx.startup" />
+107-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\luisg\.gradle\caches\transforms-3\60fb03f7868607ff1baa13fa3ab998ab\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+108        </provider>
+109    </application>
+110
+111</manifest>
