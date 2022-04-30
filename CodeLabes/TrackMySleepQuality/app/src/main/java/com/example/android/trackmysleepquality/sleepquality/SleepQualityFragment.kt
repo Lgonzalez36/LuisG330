@@ -63,15 +63,16 @@ class SleepQualityFragment : Fragment() {
         binding.sleepQualityViewModel = sleepQualityViewModel
 
         // Add an Observer to the state variable for Navigating when a Quality icon is tapped.
-        sleepQualityViewModel.navigateToSleepTracker.observe(this, {
+        sleepQualityViewModel.navigateToSleepTracker.observe(viewLifecycleOwner) {
             if (it == true) { // Observed state is true.
                 this.findNavController().navigate(
-                    SleepQualityFragmentDirections.actionSleepQualityFragmentToSleepTrackerFragment())
+                    SleepQualityFragmentDirections.actionSleepQualityFragmentToSleepTrackerFragment()
+                )
                 // Reset state to make sure we only navigate once, even if the device
                 // has a configuration change.
                 sleepQualityViewModel.doneNavigating()
             }
-        })
+        }
 
         return binding.root
     }

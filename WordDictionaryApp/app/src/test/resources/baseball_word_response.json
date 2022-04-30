@@ -1,0 +1,904 @@
+[
+  {
+    "meta": {
+      "id": "ball:1",
+      "uuid": "facb3b5c-dfea-43f4-9594-b119061206e1",
+      "sort": "020035000",
+      "src": "collegiate",
+      "section": "alpha",
+      "stems": [
+        "ball",
+        "balls",
+        "on the ball"
+      ],
+      "offensive": true
+    },
+    "hom": 1,
+    "hwi": {
+      "hw": "ball",
+      "prs": [
+        {
+          "mw": "ˈbȯl",
+          "sound": {
+            "audio": "ball0001",
+            "ref": "c",
+            "stat": "1"
+          }
+        }
+      ]
+    },
+    "fl": "noun",
+    "lbs": [
+      "often attributive"
+    ],
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "bs",
+              {
+                "sense": {
+                  "sn": "1",
+                  "dt": [
+                    [
+                      "text",
+                      "{bc}a round or roundish body or mass: such as"
+                    ]
+                  ]
+                }
+              }
+            ],
+            [
+              "sense",
+              {
+                "sn": "a",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}a spherical or ovoid body used in a game or sport "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "a tennis {wi}ball{/wi}"
+                      }
+                    ]
+                  ],
+                  [
+                    "uns",
+                    [
+                      [
+                        [
+                          "text",
+                          "used figuratively in phrases like {it}the ball is in your court{/it} to indicate who has the responsibility or opportunity for further action"
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              }
+            ],
+            [
+              "sense",
+              {
+                "sn": "b",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}{sx|earth||}, {sx|globe||}"
+                  ]
+                ]
+              }
+            ],
+            [
+              "sense",
+              {
+                "sn": "c",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}a spherical or conical projectile"
+                  ]
+                ],
+                "sdsense": {
+                  "sd": "also",
+                  "dt": [
+                    [
+                      "text",
+                      "{bc}projectiles used in firearms"
+                    ]
+                  ]
+                }
+              }
+            ],
+            [
+              "sense",
+              {
+                "sn": "d",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}a roundish protuberant anatomical structure (as near the tip of a human finger or toe or at the base of a thumb)"
+                  ]
+                ],
+                "sdsense": {
+                  "sd": "especially",
+                  "dt": [
+                    [
+                      "text",
+                      "{bc}the part of the sole of the human foot between the toes and arch on which the main weight of the body rests in normal walking"
+                    ]
+                  ]
+                }
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "2 a",
+                "sls": [
+                  "usually vulgar"
+                ],
+                "dt": [
+                  [
+                    "text",
+                    "{bc}{sx|testis||}"
+                  ]
+                ]
+              }
+            ],
+            [
+              "sen",
+              {
+                "sn": "b",
+                "ins": [
+                  {
+                    "if": "balls",
+                    "spl": "plural"
+                  }
+                ]
+              }
+            ],
+            [
+              "pseq",
+              [
+                [
+                  "sense",
+                  {
+                    "sn": "(1)",
+                    "sls": [
+                      "often vulgar"
+                    ],
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}{sx|nonsense||} "
+                      ],
+                      [
+                        "uns",
+                        [
+                          [
+                            [
+                              "text",
+                              "often used interjectionally"
+                            ]
+                          ]
+                        ]
+                      ]
+                    ]
+                  }
+                ],
+                [
+                  "sense",
+                  {
+                    "sn": "(2)",
+                    "sls": [
+                      "often vulgar"
+                    ],
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}{sx|nerve||3}"
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "3",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}a game in which a ball is thrown, kicked, or struck"
+                  ]
+                ],
+                "sdsense": {
+                  "sd": "also",
+                  "dt": [
+                    [
+                      "text",
+                      "{bc}quality of play in such a game"
+                    ]
+                  ]
+                }
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "4 a",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}a pitch not swung at by the batter that fails to pass through the strike zone"
+                  ]
+                ]
+              }
+            ],
+            [
+              "sense",
+              {
+                "sn": "b",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}a hit or thrown ball in various games "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "foul {wi}ball{/wi}"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "dros": [
+      {
+        "drp": "on the ball",
+        "def": [
+          {
+            "sseq": [
+              [
+                [
+                  "sense",
+                  {
+                    "sn": "1",
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}{sx|competent||}, {sx|knowledgeable||}, {sx|alert||} "
+                      ],
+                      [
+                        "vis",
+                        [
+                          {
+                            "t": "the other introductory essay … is much more {it}on the ball{/it}",
+                            "aq": {
+                              "source": "{it}The Times Literary Supplement{/it} (London)"
+                            }
+                          },
+                          {
+                            "t": "keep {it}on the ball{/it}"
+                          }
+                        ]
+                      ]
+                    ]
+                  }
+                ]
+              ],
+              [
+                [
+                  "sense",
+                  {
+                    "sn": "2",
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}of ability or competence "
+                      ],
+                      [
+                        "vis",
+                        [
+                          {
+                            "t": "if the teacher has something {it}on the ball{/it}, the pupils won't squirm much",
+                            "aq": {
+                              "source": "{it}New Yorker{/it}"
+                            }
+                          }
+                        ]
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "et": [
+      [
+        "text",
+        "Middle English {it}bal{/it}, probably from Old English {it}*beall{/it}; akin to Old English {it}bealluc{/it} testis, Old High German {it}balla{/it} ball, Old Norse {it}bǫllr{/it}, Old English {it}blāwan{/it} to blow {ma}{mat|blow|}{/ma}"
+      ]
+    ],
+    "date": "13th century{ds||1||}",
+    "shortdef": [
+      "a round or roundish body or mass: such as",
+      "a spherical or ovoid body used in a game or sport —used figuratively in phrases like the ball is in your court to indicate who has the responsibility or opportunity for further action",
+      "earth, globe"
+    ]
+  },
+  {
+    "meta": {
+      "id": "ball:2",
+      "uuid": "be866f14-c794-4dee-bc3b-aee0002daaaa",
+      "sort": "020035100",
+      "src": "collegiate",
+      "section": "alpha",
+      "stems": [
+        "ball",
+        "balled",
+        "balling",
+        "balls"
+      ],
+      "offensive": true
+    },
+    "hom": 2,
+    "hwi": {
+      "hw": "ball"
+    },
+    "fl": "verb",
+    "ins": [
+      {
+        "if": "balled"
+      },
+      {
+        "if": "ball*ing"
+      }
+    ],
+    "def": [
+      {
+        "vd": "transitive verb",
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "sn": "1",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}to form or gather into a ball "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "{wi}balled{/wi} the paper into a wad"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "2",
+                "sls": [
+                  "usually vulgar"
+                ],
+                "dt": [
+                  [
+                    "text",
+                    "{bc}to have sexual intercourse with"
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      },
+      {
+        "vd": "intransitive verb",
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "sn": "1",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}to form or gather into a ball"
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "2",
+                "sls": [
+                  "usually vulgar"
+                ],
+                "dt": [
+                  [
+                    "text",
+                    "{bc}to engage in sexual intercourse"
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "3",
+                "sls": [
+                  "US",
+                  "informal"
+                ],
+                "dt": [
+                  [
+                    "text",
+                    "{bc}to play basketball "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "Common shot all his own scenes on the hardwood, {wi}balling{/wi} against NBA superstars Dwyane Wade and Dwight Howard.",
+                        "aq": {
+                          "auth": "Chris Richards"
+                        }
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "date": "1577{ds|t|1||}",
+    "shortdef": [
+      "to form or gather into a ball",
+      "to have sexual intercourse with",
+      "to form or gather into a ball"
+    ]
+  },
+  {
+    "meta": {
+      "id": "ball:3",
+      "uuid": "33696813-fbd3-4fed-8c31-070f80f249d4",
+      "sort": "020035200",
+      "src": "collegiate",
+      "section": "alpha",
+      "stems": [
+        "ball",
+        "balls",
+        "on the ball"
+      ],
+      "offensive": false
+    },
+    "hom": 3,
+    "hwi": {
+      "hw": "ball"
+    },
+    "fl": "noun",
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "sn": "1",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}a large formal gathering for social dancing"
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "2",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}a very pleasant experience {bc}a good time "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "everyone had a {wi}ball{/wi} at the wedding"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "et": [
+      [
+        "text",
+        "French {it}bal{/it}, from Old French, from {it}baller{/it} to dance, from Late Latin {it}ballare{/it}, from Greek {it}ballizein{/it}"
+      ]
+    ],
+    "date": "1605{ds||1||}",
+    "shortdef": [
+      "a large formal gathering for social dancing",
+      "a very pleasant experience : a good time"
+    ]
+  },
+  {
+    "meta": {
+      "id": "Ball:b1",
+      "uuid": "3e009efb-cc31-4232-bfad-c1ff162ab43e",
+      "sort": "300376000",
+      "src": "collegiate",
+      "section": "biog",
+      "stems": [
+        "Ball",
+        "John Ball"
+      ],
+      "offensive": false
+    },
+    "hwi": {
+      "hw": "Ball",
+      "prs": [
+        {
+          "mw": "ˈbȯl",
+          "sound": {
+            "audio": "bixbal10",
+            "ref": "c",
+            "stat": "1"
+          }
+        }
+      ]
+    },
+    "fl": "biographical name",
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "dt": [
+                  [
+                    "text",
+                    "John {it}died{/it} 1381 English priest and social agitator"
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "shortdef": [
+      "John died 1381 English priest and social agitator"
+    ]
+  },
+  {
+    "meta": {
+      "id": "Ball:b2",
+      "uuid": "1f15aee1-8d24-4f08-b9d1-3ee988c98ac5",
+      "sort": "300377000",
+      "src": "collegiate",
+      "section": "biog",
+      "stems": [
+        "Ball",
+        "Lucille Ball",
+        "Lucille Désirée Ball"
+      ],
+      "offensive": false
+    },
+    "hwi": {
+      "hw": "Ball"
+    },
+    "fl": "biographical name",
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "dt": [
+                  [
+                    "text",
+                    "Lucille (Désirée) 1911–1989 American actress and comedienne"
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "shortdef": [
+      "Lucille (Désirée) 1911—1989 American actress and comedienne"
+    ]
+  },
+  {
+    "meta": {
+      "id": "ball-and-socket joint",
+      "uuid": "cacbc773-a395-4c58-8bff-772c06313768",
+      "sort": "020035900",
+      "src": "collegiate",
+      "section": "alpha",
+      "stems": [
+        "ball-and-socket joint",
+        "ball-and-socket joints"
+      ],
+      "offensive": false
+    },
+    "hwi": {
+      "hw": "ball-and-sock*et joint",
+      "prs": [
+        {
+          "mw": "ˈbȯl-ən(d)-ˈsä-kət-",
+          "sound": {
+            "audio": "ball-and-socket",
+            "ref": "owl",
+            "stat": "1"
+          }
+        }
+      ]
+    },
+    "fl": "noun",
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "sn": "1",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}a joint in which a ball moves within a socket so as to allow rotary motion in every direction within certain limits"
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "2",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}an articulation (such as the hip joint) in which the rounded head of one bone fits into a cuplike cavity of the other and admits movement in any direction"
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "art": {
+      "artid": "ballsock",
+      "capt": "ball-and-socket joint 1"
+    },
+    "date": "1779{ds||1||}",
+    "shortdef": [
+      "a joint in which a ball moves within a socket so as to allow rotary motion in every direction within certain limits",
+      "an articulation (such as the hip joint) in which the rounded head of one bone fits into a cuplike cavity of the other and admits movement in any direction"
+    ]
+  },
+  {
+    "meta": {
+      "id": "ball bearing",
+      "uuid": "84bf6311-d7f5-4099-a3cb-bed0ea9c26ca",
+      "sort": "020036200",
+      "src": "collegiate",
+      "section": "alpha",
+      "stems": [
+        "ball bearing",
+        "ball bearings"
+      ],
+      "offensive": false
+    },
+    "hwi": {
+      "hw": "ball bearing"
+    },
+    "fl": "noun",
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "dt": [
+                  [
+                    "text",
+                    "{bc}a bearing in which the journal turns upon loose hardened steel balls that roll easily in a race"
+                  ]
+                ],
+                "sdsense": {
+                  "sd": "also",
+                  "dt": [
+                    [
+                      "text",
+                      "{bc}one of the balls in such a bearing"
+                    ]
+                  ]
+                }
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "date": "1860",
+    "shortdef": [
+      "a bearing in which the journal turns upon loose hardened steel balls that roll easily in a race; also : one of the balls in such a bearing"
+    ]
+  },
+  {
+    "meta": {
+      "id": "ball boy",
+      "uuid": "5d252183-9a7a-4b15-b101-c88eba3e878c",
+      "sort": "020036300",
+      "src": "collegiate",
+      "section": "alpha",
+      "stems": [
+        "ball boy",
+        "ball boys"
+      ],
+      "offensive": false
+    },
+    "hwi": {
+      "hw": "ball boy"
+    },
+    "fl": "noun",
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "dt": [
+                  [
+                    "text",
+                    "{bc}a male attendant who retrieves balls for players or officials (as in a tennis match or a baseball or basketball game)"
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "date": "1903",
+    "shortdef": [
+      "a male attendant who retrieves balls for players or officials (as in a tennis match or a baseball or basketball game)"
+    ]
+  },
+  {
+    "meta": {
+      "id": "ball cock",
+      "uuid": "38474a19-ccf4-46db-a198-f53126103fad",
+      "sort": "020036600",
+      "src": "collegiate",
+      "section": "alpha",
+      "stems": [
+        "ball cock",
+        "ball cocks"
+      ],
+      "offensive": false
+    },
+    "hwi": {
+      "hw": "ball cock"
+    },
+    "fl": "noun",
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "dt": [
+                  [
+                    "text",
+                    "{bc}an automatic valve whose opening and closing are controlled by a hollow float at the end of a lever"
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "date": "1734",
+    "shortdef": [
+      "an automatic valve whose opening and closing are controlled by a hollow float at the end of a lever"
+    ]
+  },
+  {
+    "meta": {
+      "id": "ball control",
+      "uuid": "25a27886-3bab-4f7d-ad81-a202d455dc4f",
+      "sort": "020036700",
+      "src": "collegiate",
+      "section": "alpha",
+      "stems": [
+        "ball control",
+        "ball controls"
+      ],
+      "offensive": false
+    },
+    "hwi": {
+      "hw": "ball control"
+    },
+    "fl": "noun",
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "dt": [
+                  [
+                    "text",
+                    "{bc}an offensive strategy (as in football) in which a team tries to keep possession of the ball for extended periods of time"
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "date": "1910",
+    "shortdef": [
+      "an offensive strategy (as in football) in which a team tries to keep possession of the ball for extended periods of time"
+    ]
+  }
+]
