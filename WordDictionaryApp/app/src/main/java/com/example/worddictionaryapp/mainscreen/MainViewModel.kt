@@ -57,6 +57,10 @@ class MainViewModel(
         }
     }
 
+    suspend fun updateData(word: Dictionary) {
+        dataSource.update(word)
+    }
+
     fun getCount():Int{
        return dataSource.getAllWords().value!!.size
     }

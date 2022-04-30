@@ -6,7 +6,6 @@ import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
 import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
@@ -14,12 +13,15 @@ import com.example.worddictionaryapp.R
 import com.example.worddictionaryapp.database.Dictionary
 import com.example.worddictionaryapp.databinding.MainWordListBinding
 import com.example.worddictionaryapp.mainscreen.MainFragment
+import com.example.worddictionaryapp.mainscreen.MainViewModel
 
 class DictionaryAdapter(
     private var c: MainFragment,
+    var mainViewModel: MainViewModel,
 
 
-) : RecyclerView.Adapter<DictionaryAdapter.MyViewHolder>(){
+    ) : RecyclerView.Adapter<DictionaryAdapter.MyViewHolder>(){
+    private var filter = 0
     private var wordList = emptyList<Dictionary>()
     inner class MyViewHolder(var v: MainWordListBinding): RecyclerView.ViewHolder(v.root){}
 
@@ -35,10 +37,18 @@ class DictionaryAdapter(
     override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
         Log.i("onBindViewHolder", "ON VIEW BINDING RecyclerView")
         val currentWord = wordList[position]
-//        holder.itemView.findViewById<TextView>(R.id.word).text = wordList[position].word
-//        holder.itemView.findViewById<TextView>(R.id.short_def1).text = wordList[position].shortDef1
-//        holder.itemView.findViewById<TextView>(R.id.short_def2).text = wordList[position].shortDef2
-//        holder.itemView.findViewById<TextView>(R.id.short_def3).text = wordList[position].shortDef3
+
+        if (currentWord.status){
+            holder.v.statusImg.visibility = View.VISIBLE
+        }
+        else {
+            holder.v.statusImg.visibility = View.GONE
+        }
+
+        if (filter == 0){
+            filterStatus(holder, position)
+        }
+
         holder.v.shortDef3.text = currentWord.shortDef3
         holder.v.shortDef2.text = currentWord.shortDef2
         holder.v.shortDef1.text = currentWord.shortDef1
@@ -49,6 +59,10 @@ class DictionaryAdapter(
             .override(1600, 1600)
             .fitCenter()
             .into(holder.itemView.findViewById(R.id.word_img))
+    }
+
+    private fun filterStatus(holder: DictionaryAdapter.MyViewHolder, position: Int) {
+        
     }
 
 
@@ -65,5 +79,27 @@ class DictionaryAdapter(
         Log.i("MainViewModel", "setData) ${word.size}")
         this.wordList = word
         notifyDataSetChanged()
+    }
+
+    suspend fun switchToActive(position: Int) {
+        wordList[position].status = true
+        mainViewModel.updateData(wordList[position])
+    }
+
+    suspend fun switchToInActive(position: Int) {
+        wordList[position].status = false
+        mainViewModel.updateData(wordList[position])
+    }
+
+    fun activeFilter() {
+        filter = 1
+    }
+
+    fun inActiveFilter() {
+        filter = 2
+    }
+
+    fun showAllFilter() {
+        filter = 0
     }
 }
