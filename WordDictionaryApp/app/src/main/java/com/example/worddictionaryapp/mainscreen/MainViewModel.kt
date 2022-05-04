@@ -18,6 +18,8 @@ class MainViewModel(
 
     private lateinit var word: MutableLiveData<Dictionary>
     var allWords = dataSource.getAllWords()
+    var status = 0
+
     /**
      * Call getMarsRealEstateProperties() on init so we can display status immediately.
      */
@@ -63,6 +65,13 @@ class MainViewModel(
 
     fun getCount():Int{
        return dataSource.getAllWords().value!!.size
+    }
+
+    fun checkFilter():Int{
+        return status
+    }
+    fun noFiltter(){
+
     }
 
 }

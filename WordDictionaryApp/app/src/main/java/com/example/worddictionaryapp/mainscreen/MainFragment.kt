@@ -92,12 +92,18 @@ class MainFragment : Fragment() {
             when (item.itemId) {
                 R.id.add_word -> navController.navigate(R.id.action_mainFragment_to_searchWordFragment)
                 R.id.active -> {
-                    adapter.activeFilter()
+
+                    adapter.activeFilter(1)
+                    navController.navigate(R.id.action_mainFragment_self)
                 }
                 R.id.inactive -> {
-                    adapter.inActiveFilter()
+                    adapter.inActiveFilter(2)
+                    navController.navigate(R.id.action_mainFragment_self)
                 }
-                else -> adapter.showAllFilter()
+                else -> {
+                    adapter.showAllFilter(0)
+                    navController.navigate(R.id.action_mainFragment_self)
+                }
 
             }
 //        )

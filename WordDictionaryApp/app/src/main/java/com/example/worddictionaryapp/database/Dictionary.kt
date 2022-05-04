@@ -24,5 +24,5 @@ data class Dictionary(
     var img: String,
 
     @ColumnInfo(name = "status")
-    var status: Boolean = false
+    var status: Boolean = true
 )

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Words</string>
+    <string name="show_all">Show all</string>
+    <string name="show_active">Show active</string>
+    <string name="show_inactive">Show Inactive</string>
+    <string name="add_word">Add word</string>
+    <string name="search_for_a_word_definition">Search for a word definition</string>
+    <string name="search">Search</string>
+    <string name="search_again">Search Again</string>
+    <string name="add_word2">Add Word</string>
+    <string name="showall">Show All</string>
+</resources>
